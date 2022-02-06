@@ -1,0 +1,3 @@
+This repository is for working VS Code projects.
+Project 1 completed on 6 Febraury contains a work-in-progress, using a webscraper that will eventually send a daily update of particular HTML text-only data to email or text.
+PyScraperPro is the original trash can project, posted for learning and reference, as it took me a while to grab the tools I needed in the way I needed. 
