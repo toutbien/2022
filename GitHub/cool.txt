@@ -1,3 +1,1296 @@
-This repository is for working VS Code projects.
-Project 1 completed on 6 Febraury contains a work-in-progress, using a webscraper that will eventually send a daily update of particular HTML text-only data to email or text.
-PyScraperPro is the original trash can project, posted for learning and reference, as it took me a while to grab the tools I needed in the way I needed. 
+
+[32;1mName                                        Parameters[0m
+[32;1m----                                        ----------                                                                                            [0m
+Add-AppProvisionedSharedPackageContainer    
+Add-AppSharedPackageContainer               
+Add-AppxPackage                             
+Add-AppxProvisionedPackage                  
+Add-AppxVolume                              
+Add-BitsFile                                
+Add-CertificateEnrollmentPolicyServer       
+Add-Content                                 {[Value, System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata]…}
+Add-History                                 {[InputObject, System.Management.Automation.ParameterMetadata], [Passthru,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Add-JobTrigger                              
+Add-KdsRootKey                              
+Add-LocalGroupMember                        
+Add-Member                                  {[InputObject, System.Management.Automation.ParameterMetadata], [MemberType,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata]…}
+Add-Type                                    {[TypeDefinition, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [MemberDefinition,
+                                            System.Management.Automation.ParameterMetadata], [Namespace,
+                                            System.Management.Automation.ParameterMetadata]…}
+Add-WindowsCapability                       
+Add-WindowsDriver                           
+Add-WindowsImage                            
+Add-WindowsPackage                          
+Clear-Content                               {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-History                               {[Id, System.Management.Automation.ParameterMetadata], [CommandLine,
+                                            System.Management.Automation.ParameterMetadata], [Count,
+                                            System.Management.Automation.ParameterMetadata], [Newest,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-Item                                  {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-ItemProperty                          {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-KdsCache                              
+Clear-RecycleBin                            {[DriveLetter, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-Tpm                                   
+Clear-Variable                              {[Name, System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata], [Exclude,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Clear-WindowsCorruptMountPoint              
+Compare-Object                              {[ReferenceObject, System.Management.Automation.ParameterMetadata], [DifferenceObject,
+                                            System.Management.Automation.ParameterMetadata], [SyncWindow,
+                                            System.Management.Automation.ParameterMetadata], [Property,
+                                            System.Management.Automation.ParameterMetadata]…}
+Complete-BitsTransfer                       
+Complete-DtcDiagnosticTransaction           
+Confirm-SecureBootUEFI                      
+Connect-PSSession                           {[Session, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [ApplicationName,
+                                            System.Management.Automation.ParameterMetadata], [ConfigurationName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Connect-WSMan                               
+Convert-Path                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertFrom-Csv                             {[Delimiter, System.Management.Automation.ParameterMetadata], [UseCulture,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Header,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertFrom-Json                            {[InputObject, System.Management.Automation.ParameterMetadata], [AsHashtable,
+                                            System.Management.Automation.ParameterMetadata], [Depth,
+                                            System.Management.Automation.ParameterMetadata], [NoEnumerate,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertFrom-Markdown                        {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [AsVT100EncodedString,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertFrom-SddlString                      {[Sddl, System.Management.Automation.ParameterMetadata], [Type,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertFrom-SecureString                    
+ConvertFrom-StringData                      {[StringData, System.Management.Automation.ParameterMetadata], [Delimiter,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertTo-Csv                               {[InputObject, System.Management.Automation.ParameterMetadata], [Delimiter,
+                                            System.Management.Automation.ParameterMetadata], [UseCulture,
+                                            System.Management.Automation.ParameterMetadata], [IncludeTypeInformation,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertTo-Html                              {[InputObject, System.Management.Automation.ParameterMetadata], [Property,
+                                            System.Management.Automation.ParameterMetadata], [Body,
+                                            System.Management.Automation.ParameterMetadata], [Head,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertTo-Json                              {[InputObject, System.Management.Automation.ParameterMetadata], [Depth,
+                                            System.Management.Automation.ParameterMetadata], [Compress,
+                                            System.Management.Automation.ParameterMetadata], [EnumsAsStrings,
+                                            System.Management.Automation.ParameterMetadata]…}
+ConvertTo-ProcessMitigationPolicy           
+ConvertTo-SecureString                      
+ConvertTo-TpmOwnerAuth                      
+ConvertTo-Xml                               {[Depth, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [NoTypeInformation,
+                                            System.Management.Automation.ParameterMetadata], [As,
+                                            System.Management.Automation.ParameterMetadata]…}
+Copy-BcdEntry                               
+Copy-Item                                   {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Destination,
+                                            System.Management.Automation.ParameterMetadata], [Container,
+                                            System.Management.Automation.ParameterMetadata]…}
+Copy-ItemProperty                           {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Destination,
+                                            System.Management.Automation.ParameterMetadata]…}
+Copy-UserInternationalSettingsToSystem      
+Debug-Job                                   {[Job, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [InstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Debug-Process                               {[Id, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Debug-Runspace                              {[Runspace, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [InstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-AppBackgroundTaskDiagnosticLog      
+Disable-BcdElementBootDebug                 
+Disable-BcdElementBootEms                   
+Disable-BcdElementDebug                     
+Disable-BcdElementEms                       
+Disable-BcdElementEventLogging              
+Disable-BcdElementHypervisorDebug           
+Disable-ExperimentalFeature                 {[Name, System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-JobTrigger                          
+Disable-LocalUser                           
+Disable-PSBreakpoint                        {[PassThru, System.Management.Automation.ParameterMetadata], [Breakpoint,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-PSRemoting                          {[Force, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-PSSessionConfiguration              {[Name, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [NoServiceRestart,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-RunspaceDebug                       {[RunspaceName, System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata], [RunspaceId,
+                                            System.Management.Automation.ParameterMetadata], [RunspaceInstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disable-ScheduledJob                        
+Disable-TlsCipherSuite                      
+Disable-TlsEccCurve                         
+Disable-TlsSessionTicketKey                 
+Disable-TpmAutoProvisioning                 
+Disable-WindowsErrorReporting               
+Disable-WindowsOptionalFeature              
+Disable-WSManCredSSP                        
+Disconnect-PSSession                        {[Session, System.Management.Automation.ParameterMetadata], [IdleTimeoutSec,
+                                            System.Management.Automation.ParameterMetadata], [OutputBufferingMode,
+                                            System.Management.Automation.ParameterMetadata], [ThrottleLimit,
+                                            System.Management.Automation.ParameterMetadata]…}
+Disconnect-WSMan                            
+Dismount-AppxVolume                         
+Dismount-WindowsImage                       
+Enable-AppBackgroundTaskDiagnosticLog       
+Enable-BcdElementBootDebug                  
+Enable-BcdElementBootEms                    
+Enable-BcdElementDebug                      
+Enable-BcdElementEms                        
+Enable-BcdElementEventLogging               
+Enable-BcdElementHypervisorDebug            
+Enable-ExperimentalFeature                  {[Name, System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enable-JobTrigger                           
+Enable-LocalUser                            
+Enable-PSBreakpoint                         {[PassThru, System.Management.Automation.ParameterMetadata], [Breakpoint,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enable-PSRemoting                           {[Force, System.Management.Automation.ParameterMetadata], [SkipNetworkProfileCheck,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enable-PSSessionConfiguration               {[Name, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [SecurityDescriptorSddl,
+                                            System.Management.Automation.ParameterMetadata], [SkipNetworkProfileCheck,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enable-RunspaceDebug                        {[BreakAll, System.Management.Automation.ParameterMetadata], [RunspaceName,
+                                            System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata], [RunspaceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enable-ScheduledJob                         
+Enable-TlsCipherSuite                       
+Enable-TlsEccCurve                          
+Enable-TlsSessionTicketKey                  
+Enable-TpmAutoProvisioning                  
+Enable-WindowsErrorReporting                
+Enable-WindowsOptionalFeature               
+Enable-WSManCredSSP                         
+Enter-PSHostProcess                         {[Process, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [HostProcessInfo,
+                                            System.Management.Automation.ParameterMetadata]…}
+Enter-PSSession                             {[HostName, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Session,
+                                            System.Management.Automation.ParameterMetadata], [ConnectionUri,
+                                            System.Management.Automation.ParameterMetadata]…}
+Exit-PSHostProcess                          {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Exit-PSSession                              {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Expand-WindowsCustomDataImage               
+Expand-WindowsImage                         
+Export-Alias                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-BcdStore                             
+Export-BinaryMiLog                          
+Export-Certificate                          
+Export-Clixml                               {[Depth, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-Counter                              
+Export-Csv                                  {[InputObject, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-FormatData                           {[InputObject, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-ModuleMember                         {[Function, System.Management.Automation.ParameterMetadata], [Cmdlet,
+                                            System.Management.Automation.ParameterMetadata], [Variable,
+                                            System.Management.Automation.ParameterMetadata], [Alias,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-PfxCertificate                       
+Export-ProvisioningPackage                  
+Export-PSSession                            {[OutputModule, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Encoding,
+                                            System.Management.Automation.ParameterMetadata], [CommandName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Export-StartLayout                          
+Export-StartLayoutEdgeAssets                
+Export-TlsSessionTicketKey                  
+Export-Trace                                
+Export-WindowsCapabilitySource              
+Export-WindowsDriver                        
+Export-WindowsImage                         
+Find-Package                                
+Find-PackageProvider                        
+ForEach-Object                              {[InputObject, System.Management.Automation.ParameterMetadata], [Begin,
+                                            System.Management.Automation.ParameterMetadata], [Process,
+                                            System.Management.Automation.ParameterMetadata], [End,
+                                            System.Management.Automation.ParameterMetadata]…}
+Format-Custom                               {[Property, System.Management.Automation.ParameterMetadata], [Depth,
+                                            System.Management.Automation.ParameterMetadata], [GroupBy,
+                                            System.Management.Automation.ParameterMetadata], [View,
+                                            System.Management.Automation.ParameterMetadata]…}
+Format-Hex                                  {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Encoding,
+                                            System.Management.Automation.ParameterMetadata]…}
+Format-List                                 {[Property, System.Management.Automation.ParameterMetadata], [GroupBy,
+                                            System.Management.Automation.ParameterMetadata], [View,
+                                            System.Management.Automation.ParameterMetadata], [ShowError,
+                                            System.Management.Automation.ParameterMetadata]…}
+Format-SecureBootUEFI                       
+Format-Table                                {[AutoSize, System.Management.Automation.ParameterMetadata], [RepeatHeader,
+                                            System.Management.Automation.ParameterMetadata], [HideTableHeaders,
+                                            System.Management.Automation.ParameterMetadata], [Wrap,
+                                            System.Management.Automation.ParameterMetadata]…}
+Format-Wide                                 {[Property, System.Management.Automation.ParameterMetadata], [AutoSize,
+                                            System.Management.Automation.ParameterMetadata], [Column,
+                                            System.Management.Automation.ParameterMetadata], [GroupBy,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Acl                                     
+Get-Alias                                   {[Name, System.Management.Automation.ParameterMetadata], [Exclude,
+                                            System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [Definition,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-AppProvisionedSharedPackageContainer    
+Get-AppSharedPackageContainer               
+Get-AppxDefaultVolume                       
+Get-AppxPackage                             
+Get-AppxPackageAutoUpdateSettings           
+Get-AppxPackageManifest                     
+Get-AppxProvisionedPackage                  
+Get-AppxVolume                              
+Get-AuthenticodeSignature                   
+Get-BcdEntry                                
+Get-BcdEntryDebugSettings                   
+Get-BcdEntryHypervisorSettings              
+Get-BcdStore                                
+Get-BitsTransfer                            
+Get-Certificate                             
+Get-CertificateAutoEnrollmentPolicy         
+Get-CertificateEnrollmentPolicyServer       
+Get-CertificateNotificationTask             
+Get-ChildItem                               {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-CimAssociatedInstance                   
+Get-CimClass                                
+Get-CimInstance                             
+Get-CimSession                              
+Get-Clipboard                               {[Raw, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-CmsMessage                              
+Get-Command                                 {[CommandType, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Verb,
+                                            System.Management.Automation.ParameterMetadata], [Noun,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ComputerInfo                            {[Property, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Content                                 {[ReadCount, System.Management.Automation.ParameterMetadata], [TotalCount,
+                                            System.Management.Automation.ParameterMetadata], [Tail,
+                                            System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Counter                                 
+Get-Credential                              
+Get-Culture                                 {[Name, System.Management.Automation.ParameterMetadata], [NoUserOverrides,
+                                            System.Management.Automation.ParameterMetadata], [ListAvailable,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-DAPolicyChange                          
+Get-Date                                    {[Date, System.Management.Automation.ParameterMetadata], [UnixTimeSeconds,
+                                            System.Management.Automation.ParameterMetadata], [Year,
+                                            System.Management.Automation.ParameterMetadata], [Month,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-DeliveryOptimizationLog                 
+Get-DeliveryOptimizationLogAnalysis         
+Get-Error                                   {[InputObject, System.Management.Automation.ParameterMetadata], [Newest,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Event                                   {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [EventIdentifier,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-EventSubscriber                         {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [SubscriptionId,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ExecutionPolicy                         
+Get-ExperimentalFeature                     {[Name, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-FileHash                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [InputStream,
+                                            System.Management.Automation.ParameterMetadata], [Algorithm,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-FormatData                              {[TypeName, System.Management.Automation.ParameterMetadata], [PowerShellVersion,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Help                                    {[Name, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [Category,
+                                            System.Management.Automation.ParameterMetadata], [Detailed,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-History                                 {[Id, System.Management.Automation.ParameterMetadata], [Count,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Host                                    {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-HotFix                                  {[Id, System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Item                                    {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ItemProperty                            {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ItemPropertyValue                       {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Job                                     {[IncludeChildJob, System.Management.Automation.ParameterMetadata], [ChildJobState,
+                                            System.Management.Automation.ParameterMetadata], [HasMoreData,
+                                            System.Management.Automation.ParameterMetadata], [Before,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-JobTrigger                              
+Get-KdsConfiguration                        
+Get-KdsRootKey                              
+Get-LocalGroup                              
+Get-LocalGroupMember                        
+Get-LocalUser                               
+Get-Location                                {[PSProvider, System.Management.Automation.ParameterMetadata], [PSDrive,
+                                            System.Management.Automation.ParameterMetadata], [Stack,
+                                            System.Management.Automation.ParameterMetadata], [StackName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-MarkdownOption                          {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Member                                  {[InputObject, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [MemberType,
+                                            System.Management.Automation.ParameterMetadata], [View,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Module                                  {[Name, System.Management.Automation.ParameterMetadata], [FullyQualifiedName,
+                                            System.Management.Automation.ParameterMetadata], [All,
+                                            System.Management.Automation.ParameterMetadata], [ListAvailable,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-NonRemovableAppsPolicy                  
+Get-Package                                 
+Get-PackageProvider                         
+Get-PackageSource                           
+Get-PfxCertificate                          
+Get-PfxData                                 
+Get-PmemDedicatedMemory                     
+Get-PmemDisk                                
+Get-PmemPhysicalDevice                      
+Get-PmemUnusedRegion                        
+Get-Process                                 {[Name, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [IncludeUserName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ProcessMitigation                       
+Get-ProvisioningPackage                     
+Get-PSBreakpoint                            {[Script, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Variable,
+                                            System.Management.Automation.ParameterMetadata], [Command,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSCallStack                             {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSDrive                                 {[Name, System.Management.Automation.ParameterMetadata], [LiteralName,
+                                            System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [PSProvider,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSHostProcessInfo                       {[Name, System.Management.Automation.ParameterMetadata], [Process,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSProvider                              {[PSProvider, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSReadLineKeyHandler                    {[Bound, System.Management.Automation.ParameterMetadata], [Unbound,
+                                            System.Management.Automation.ParameterMetadata], [Chord,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSReadLineOption                        {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSSession                               {[ComputerName, System.Management.Automation.ParameterMetadata], [ApplicationName,
+                                            System.Management.Automation.ParameterMetadata], [ConnectionUri,
+                                            System.Management.Automation.ParameterMetadata], [ConfigurationName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSSessionCapability                     {[ConfigurationName, System.Management.Automation.ParameterMetadata], [Username,
+                                            System.Management.Automation.ParameterMetadata], [Full,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-PSSessionConfiguration                  {[Name, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Random                                  {[SetSeed, System.Management.Automation.ParameterMetadata], [Maximum,
+                                            System.Management.Automation.ParameterMetadata], [Minimum,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Runspace                                {[Name, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [InstanceId,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-RunspaceDebug                           {[RunspaceName, System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata], [RunspaceId,
+                                            System.Management.Automation.ParameterMetadata], [RunspaceInstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-ScheduledJob                            
+Get-ScheduledJobOption                      
+Get-SecureBootPolicy                        
+Get-SecureBootUEFI                          
+Get-Service                                 {[Name, System.Management.Automation.ParameterMetadata], [DependentServices,
+                                            System.Management.Automation.ParameterMetadata], [RequiredServices,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-TimeZone                                {[Id, System.Management.Automation.ParameterMetadata], [ListAvailable,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-TlsCipherSuite                          
+Get-TlsEccCurve                             
+Get-Tpm                                     
+Get-TpmEndorsementKeyInfo                   
+Get-TpmSupportedFeature                     
+Get-TraceSource                             {[Name, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-TroubleshootingPack                     
+Get-TrustedProvisioningCertificate          
+Get-TypeData                                {[TypeName, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-UICulture                               {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Unique                                  {[InputObject, System.Management.Automation.ParameterMetadata], [AsString,
+                                            System.Management.Automation.ParameterMetadata], [OnType,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Uptime                                  {[Since, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Variable                                {[Name, System.Management.Automation.ParameterMetadata], [ValueOnly,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata], [Exclude,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-Verb                                    {[Verb, System.Management.Automation.ParameterMetadata], [Group,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Get-WheaMemoryPolicy                        
+Get-WIMBootEntry                            
+Get-WinAcceptLanguageFromLanguageListOptOut 
+Get-WinCultureFromLanguageListOptOut        
+Get-WinDefaultInputMethodOverride           
+Get-WindowsCapability                       
+Get-WindowsDeveloperLicense                 
+Get-WindowsDriver                           
+Get-WindowsEdition                          
+Get-WindowsErrorReporting                   
+Get-WindowsImage                            
+Get-WindowsImageContent                     
+Get-WindowsOptionalFeature                  
+Get-WindowsPackage                          
+Get-WindowsReservedStorageState             
+Get-WindowsSearchSetting                    
+Get-WinEvent                                
+Get-WinHomeLocation                         
+Get-WinLanguageBarOption                    
+Get-WinSystemLocale                         
+Get-WinUILanguageOverride                   
+Get-WinUserLanguageList                     
+Get-WSManCredSSP                            
+Get-WSManInstance                           
+Group-Object                                {[NoElement, System.Management.Automation.ParameterMetadata], [AsHashTable,
+                                            System.Management.Automation.ParameterMetadata], [AsString,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-Alias                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-BcdStore                             
+Import-BinaryMiLog                          
+Import-Certificate                          
+Import-Clixml                               {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-Counter                              
+Import-Csv                                  {[Delimiter, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [UseCulture,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-LocalizedData                        {[BindingVariable, System.Management.Automation.ParameterMetadata], [UICulture,
+                                            System.Management.Automation.ParameterMetadata], [BaseDirectory,
+                                            System.Management.Automation.ParameterMetadata], [FileName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-Module                               {[Global, System.Management.Automation.ParameterMetadata], [Prefix,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [FullyQualifiedName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-PackageProvider                      
+Import-PfxCertificate                       
+Import-PowerShellDataFile                   {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [SkipLimitCheck,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-PSSession                            {[Prefix, System.Management.Automation.ParameterMetadata], [DisableNameChecking,
+                                            System.Management.Automation.ParameterMetadata], [CommandName,
+                                            System.Management.Automation.ParameterMetadata], [AllowClobber,
+                                            System.Management.Automation.ParameterMetadata]…}
+Import-StartLayout                          
+Import-TpmOwnerAuth                         
+Initialize-PmemPhysicalDevice               
+Initialize-Tpm                              
+Install-Package                             
+Install-PackageProvider                     
+Install-ProvisioningPackage                 
+Install-TrustedProvisioningCertificate      
+Invoke-CimMethod                            
+Invoke-Command                              {[Session, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata], [Port,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-CommandInDesktopPackage              
+Invoke-DscResource                          
+Invoke-Expression                           {[Command, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-History                              {[Id, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-Item                                 {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-RestMethod                           {[Method, System.Management.Automation.ParameterMetadata], [CustomMethod,
+                                            System.Management.Automation.ParameterMetadata], [FollowRelLink,
+                                            System.Management.Automation.ParameterMetadata], [MaximumFollowRelLink,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-TroubleshootingPack                  
+Invoke-WebRequest                           {[UseBasicParsing, System.Management.Automation.ParameterMetadata], [Uri,
+                                            System.Management.Automation.ParameterMetadata], [WebSession,
+                                            System.Management.Automation.ParameterMetadata], [SessionVariable,
+                                            System.Management.Automation.ParameterMetadata]…}
+Invoke-WSManAction                          
+Join-DtcDiagnosticResourceManager           
+Join-Path                                   {[Path, System.Management.Automation.ParameterMetadata], [ChildPath,
+                                            System.Management.Automation.ParameterMetadata], [AdditionalChildPath,
+                                            System.Management.Automation.ParameterMetadata], [Resolve,
+                                            System.Management.Automation.ParameterMetadata]…}
+Join-String                                 {[Property, System.Management.Automation.ParameterMetadata], [Separator,
+                                            System.Management.Automation.ParameterMetadata], [OutputPrefix,
+                                            System.Management.Automation.ParameterMetadata], [OutputSuffix,
+                                            System.Management.Automation.ParameterMetadata]…}
+Measure-Command                             {[InputObject, System.Management.Automation.ParameterMetadata], [Expression,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Measure-Object                              {[InputObject, System.Management.Automation.ParameterMetadata], [Property,
+                                            System.Management.Automation.ParameterMetadata], [StandardDeviation,
+                                            System.Management.Automation.ParameterMetadata], [Sum,
+                                            System.Management.Automation.ParameterMetadata]…}
+Mount-AppxVolume                            
+Mount-WindowsImage                          
+Move-AppxPackage                            
+Move-Item                                   {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Destination,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Move-ItemProperty                           {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Destination,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-Alias                                   {[Name, System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata], [Option,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-BcdEntry                                
+New-BcdStore                                
+New-CertificateNotificationTask             
+New-CimInstance                             
+New-CimSession                              
+New-CimSessionOption                        
+New-DtcDiagnosticTransaction                
+New-Event                                   {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [Sender,
+                                            System.Management.Automation.ParameterMetadata], [EventArguments,
+                                            System.Management.Automation.ParameterMetadata], [MessageData,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-FileCatalog                             
+New-Guid                                    {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-Item                                    {[Path, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [ItemType,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-ItemProperty                            {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [PropertyType,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-JobTrigger                              
+New-LocalGroup                              
+New-LocalUser                               
+New-Module                                  {[Name, System.Management.Automation.ParameterMetadata], [ScriptBlock,
+                                            System.Management.Automation.ParameterMetadata], [Function,
+                                            System.Management.Automation.ParameterMetadata], [Cmdlet,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-ModuleManifest                          {[Path, System.Management.Automation.ParameterMetadata], [NestedModules,
+                                            System.Management.Automation.ParameterMetadata], [Guid,
+                                            System.Management.Automation.ParameterMetadata], [Author,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-NetIPsecAuthProposal                    
+New-NetIPsecMainModeCryptoProposal          
+New-NetIPsecQuickModeCryptoProposal         
+New-Object                                  {[TypeName, System.Management.Automation.ParameterMetadata], [ComObject,
+                                            System.Management.Automation.ParameterMetadata], [ArgumentList,
+                                            System.Management.Automation.ParameterMetadata], [Strict,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PmemDedicatedMemory                     
+New-PmemDisk                                
+New-ProvisioningRepro                       
+New-PSDrive                                 {[Name, System.Management.Automation.ParameterMetadata], [PSProvider,
+                                            System.Management.Automation.ParameterMetadata], [Root,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSRoleCapabilityFile                    {[Path, System.Management.Automation.ParameterMetadata], [Guid,
+                                            System.Management.Automation.ParameterMetadata], [Author,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSSession                               {[ComputerName, System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata], [Session,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSSessionConfigurationFile              {[Path, System.Management.Automation.ParameterMetadata], [SchemaVersion,
+                                            System.Management.Automation.ParameterMetadata], [Guid,
+                                            System.Management.Automation.ParameterMetadata], [Author,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSSessionOption                         {[MaximumRedirection, System.Management.Automation.ParameterMetadata], [NoCompression,
+                                            System.Management.Automation.ParameterMetadata], [NoMachineProfile,
+                                            System.Management.Automation.ParameterMetadata], [Culture,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSTransportOption                       {[MaxIdleTimeoutSec, System.Management.Automation.ParameterMetadata], [ProcessIdleTimeoutSec,
+                                            System.Management.Automation.ParameterMetadata], [MaxSessions,
+                                            System.Management.Automation.ParameterMetadata], [MaxConcurrentCommandsPerSession,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-PSWorkflowExecutionOption               
+New-ScheduledJobOption                      
+New-SelfSignedCertificate                   
+New-Service                                 {[Name, System.Management.Automation.ParameterMetadata], [BinaryPathName,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-TemporaryFile                           {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-TimeSpan                                {[Start, System.Management.Automation.ParameterMetadata], [End,
+                                            System.Management.Automation.ParameterMetadata], [Days,
+                                            System.Management.Automation.ParameterMetadata], [Hours,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-TlsSessionTicketKey                     
+New-Variable                                {[Name, System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata], [Option,
+                                            System.Management.Automation.ParameterMetadata]…}
+New-WindowsCustomImage                      
+New-WindowsImage                            
+New-WinEvent                                
+New-WinUserLanguageList                     
+New-WSManInstance                           
+New-WSManSessionOption                      
+Optimize-AppxProvisionedPackages            
+Optimize-WindowsImage                       
+Out-Default                                 {[Transcript, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-File                                    {[FilePath, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Encoding,
+                                            System.Management.Automation.ParameterMetadata], [Append,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-GridView                                {[InputObject, System.Management.Automation.ParameterMetadata], [Title,
+                                            System.Management.Automation.ParameterMetadata], [Wait,
+                                            System.Management.Automation.ParameterMetadata], [OutputMode,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-Host                                    {[Paging, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-Null                                    {[InputObject, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-Printer                                 {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Out-String                                  {[Stream, System.Management.Automation.ParameterMetadata], [Width,
+                                            System.Management.Automation.ParameterMetadata], [NoNewline,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Pop-Location                                {[PassThru, System.Management.Automation.ParameterMetadata], [StackName,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Protect-CmsMessage                          
+Publish-DscConfiguration                    
+Push-Location                               {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [StackName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Read-Host                                   {[Prompt, System.Management.Automation.ParameterMetadata], [AsSecureString,
+                                            System.Management.Automation.ParameterMetadata], [MaskInput,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Receive-DtcDiagnosticTransaction            
+Receive-Job                                 {[Job, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Location,
+                                            System.Management.Automation.ParameterMetadata], [Session,
+                                            System.Management.Automation.ParameterMetadata]…}
+Receive-PSSession                           {[Session, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [ApplicationName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Register-ArgumentCompleter                  {[CommandName, System.Management.Automation.ParameterMetadata], [ParameterName,
+                                            System.Management.Automation.ParameterMetadata], [ScriptBlock,
+                                            System.Management.Automation.ParameterMetadata], [Native,
+                                            System.Management.Automation.ParameterMetadata]…}
+Register-CimIndicationEvent                 
+Register-EngineEvent                        {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [Action,
+                                            System.Management.Automation.ParameterMetadata], [MessageData,
+                                            System.Management.Automation.ParameterMetadata], [SupportEvent,
+                                            System.Management.Automation.ParameterMetadata]…}
+Register-ObjectEvent                        {[InputObject, System.Management.Automation.ParameterMetadata], [EventName,
+                                            System.Management.Automation.ParameterMetadata], [SourceIdentifier,
+                                            System.Management.Automation.ParameterMetadata], [Action,
+                                            System.Management.Automation.ParameterMetadata]…}
+Register-PackageSource                      
+Register-PSSessionConfiguration             {[ProcessorArchitecture, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [AssemblyName,
+                                            System.Management.Automation.ParameterMetadata], [ApplicationBase,
+                                            System.Management.Automation.ParameterMetadata]…}
+Register-ScheduledJob                       
+Remove-Alias                                {[Name, System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-AppProvisionedSharedPackageContainer 
+Remove-AppSharedPackageContainer            
+Remove-AppxPackage                          
+Remove-AppxPackageAutoUpdateSettings        
+Remove-AppxProvisionedPackage               
+Remove-AppxVolume                           
+Remove-BcdElement                           
+Remove-BcdEntry                             
+Remove-BitsTransfer                         
+Remove-CertificateEnrollmentPolicyServer    
+Remove-CertificateNotificationTask          
+Remove-CimInstance                          
+Remove-CimSession                           
+Remove-Event                                {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [EventIdentifier,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-Item                                 {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-ItemProperty                         {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-Job                                  {[Job, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [InstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-JobTrigger                           
+Remove-LocalGroup                           
+Remove-LocalGroupMember                     
+Remove-LocalUser                            
+Remove-Module                               {[Name, System.Management.Automation.ParameterMetadata], [FullyQualifiedName,
+                                            System.Management.Automation.ParameterMetadata], [ModuleInfo,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-PmemDedicatedMemory                  
+Remove-PmemDisk                             
+Remove-PSBreakpoint                         {[Breakpoint, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [Runspace,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-PSDrive                              {[Name, System.Management.Automation.ParameterMetadata], [LiteralName,
+                                            System.Management.Automation.ParameterMetadata], [PSProvider,
+                                            System.Management.Automation.ParameterMetadata], [Scope,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-PSReadLineKeyHandler                 {[Chord, System.Management.Automation.ParameterMetadata], [ViMode,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-PSSession                            {[Session, System.Management.Automation.ParameterMetadata], [ContainerId,
+                                            System.Management.Automation.ParameterMetadata], [VMId,
+                                            System.Management.Automation.ParameterMetadata], [VMName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-Service                              {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-TypeData                             {[TypeName, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [TypeData,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-Variable                             {[Name, System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata], [Exclude,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Remove-WindowsCapability                    
+Remove-WindowsDriver                        
+Remove-WindowsImage                         
+Remove-WindowsPackage                       
+Remove-WSManInstance                        
+Rename-Computer                             {[ComputerName, System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [DomainCredential,
+                                            System.Management.Automation.ParameterMetadata], [LocalCredential,
+                                            System.Management.Automation.ParameterMetadata]…}
+Rename-Item                                 {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [NewName,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Rename-ItemProperty                         {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [NewName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Rename-LocalGroup                           
+Rename-LocalUser                            
+Repair-WindowsImage                         
+Reset-AppSharedPackageContainer             
+Reset-AppxPackage                           
+Resolve-DnsName                             
+Resolve-Path                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Relative,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata]…}
+Restart-Computer                            {[WsmanAuthentication, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Restart-Service                             {[Force, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Resume-BitsTransfer                         
+Resume-ProvisioningSession                  
+Resume-Service                              {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Save-Help                                   {[DestinationPath, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Module,
+                                            System.Management.Automation.ParameterMetadata], [FullyQualifiedModule,
+                                            System.Management.Automation.ParameterMetadata]…}
+Save-Package                                
+Save-WindowsImage                           
+Select-Object                               {[InputObject, System.Management.Automation.ParameterMetadata], [Property,
+                                            System.Management.Automation.ParameterMetadata], [ExcludeProperty,
+                                            System.Management.Automation.ParameterMetadata], [ExpandProperty,
+                                            System.Management.Automation.ParameterMetadata]…}
+Select-String                               {[Culture, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Pattern,
+                                            System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata]…}
+Select-Xml                                  {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Xml,
+                                            System.Management.Automation.ParameterMetadata], [Content,
+                                            System.Management.Automation.ParameterMetadata]…}
+Send-DtcDiagnosticTransaction               
+Send-MailMessage                            {[Attachments, System.Management.Automation.ParameterMetadata], [Bcc,
+                                            System.Management.Automation.ParameterMetadata], [Body,
+                                            System.Management.Automation.ParameterMetadata], [BodyAsHtml,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-Acl                                     
+Set-Alias                                   {[Name, System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata], [Option,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-AppBackgroundTaskResourcePolicy         
+Set-AppxDefaultVolume                       
+Set-AppxPackageAutoUpdateSettings           
+Set-AppXProvisionedDataFile                 
+Set-AuthenticodeSignature                   
+Set-BcdBootDefault                          
+Set-BcdBootDisplayOrder                     
+Set-BcdBootSequence                         
+Set-BcdBootTimeout                          
+Set-BcdBootToolsDisplayOrder                
+Set-BcdDebugSettings                        
+Set-BcdElement                              
+Set-BcdHypervisorSettings                   
+Set-BitsTransfer                            
+Set-CertificateAutoEnrollmentPolicy         
+Set-CimInstance                             
+Set-Clipboard                               {[Value, System.Management.Automation.ParameterMetadata], [Append,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-Content                                 {[Value, System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-Culture                                 
+Set-Date                                    {[Date, System.Management.Automation.ParameterMetadata], [Adjust,
+                                            System.Management.Automation.ParameterMetadata], [DisplayHint,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-DscLocalConfigurationManager            
+Set-ExecutionPolicy                         
+Set-Item                                    {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-ItemProperty                            {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-JobTrigger                              
+Set-KdsConfiguration                        
+Set-LocalGroup                              
+Set-LocalUser                               
+Set-Location                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [StackName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-MarkdownOption                          {[Header1Color, System.Management.Automation.ParameterMetadata], [Header2Color,
+                                            System.Management.Automation.ParameterMetadata], [Header3Color,
+                                            System.Management.Automation.ParameterMetadata], [Header4Color,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-NonRemovableAppsPolicy                  
+Set-PackageSource                           
+Set-ProcessMitigation                       
+Set-PSBreakpoint                            {[Action, System.Management.Automation.ParameterMetadata], [Column,
+                                            System.Management.Automation.ParameterMetadata], [Command,
+                                            System.Management.Automation.ParameterMetadata], [Line,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-PSDebug                                 {[Trace, System.Management.Automation.ParameterMetadata], [Step,
+                                            System.Management.Automation.ParameterMetadata], [Strict,
+                                            System.Management.Automation.ParameterMetadata], [Off,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-PSReadLineKeyHandler                    {[ScriptBlock, System.Management.Automation.ParameterMetadata], [BriefDescription,
+                                            System.Management.Automation.ParameterMetadata], [Description,
+                                            System.Management.Automation.ParameterMetadata], [Chord,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-PSReadLineOption                        {[EditMode, System.Management.Automation.ParameterMetadata], [ContinuationPrompt,
+                                            System.Management.Automation.ParameterMetadata], [HistoryNoDuplicates,
+                                            System.Management.Automation.ParameterMetadata], [AddToHistoryHandler,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-PSSessionConfiguration                  {[Name, System.Management.Automation.ParameterMetadata], [AssemblyName,
+                                            System.Management.Automation.ParameterMetadata], [ApplicationBase,
+                                            System.Management.Automation.ParameterMetadata], [ConfigurationTypeName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-ScheduledJob                            
+Set-ScheduledJobOption                      
+Set-SecureBootUEFI                          
+Set-Service                                 {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-StrictMode                              {[Off, System.Management.Automation.ParameterMetadata], [Version,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-TimeZone                                {[Id, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-TpmOwnerAuth                            
+Set-TraceSource                             {[Name, System.Management.Automation.ParameterMetadata], [Option,
+                                            System.Management.Automation.ParameterMetadata], [ListenerOption,
+                                            System.Management.Automation.ParameterMetadata], [FilePath,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-Variable                                {[Name, System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata], [Exclude,
+                                            System.Management.Automation.ParameterMetadata]…}
+Set-WheaMemoryPolicy                        
+Set-WinAcceptLanguageFromLanguageListOptOut 
+Set-WinCultureFromLanguageListOptOut        
+Set-WinDefaultInputMethodOverride           
+Set-WindowsEdition                          
+Set-WindowsProductKey                       
+Set-WindowsReservedStorageState             
+Set-WindowsSearchSetting                    
+Set-WinHomeLocation                         
+Set-WinLanguageBarOption                    
+Set-WinSystemLocale                         
+Set-WinUILanguageOverride                   
+Set-WinUserLanguageList                     
+Set-WSManInstance                           
+Set-WSManQuickConfig                        
+Show-Command                                {[Name, System.Management.Automation.ParameterMetadata], [Height,
+                                            System.Management.Automation.ParameterMetadata], [Width,
+                                            System.Management.Automation.ParameterMetadata], [NoCommonParameter,
+                                            System.Management.Automation.ParameterMetadata]…}
+Show-Markdown                               {[InputObject, System.Management.Automation.ParameterMetadata], [Path,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [UseBrowser,
+                                            System.Management.Automation.ParameterMetadata]…}
+Show-WindowsDeveloperLicenseRegistration    
+Sort-Object                                 {[Stable, System.Management.Automation.ParameterMetadata], [Descending,
+                                            System.Management.Automation.ParameterMetadata], [Unique,
+                                            System.Management.Automation.ParameterMetadata], [Top,
+                                            System.Management.Automation.ParameterMetadata]…}
+Split-Path                                  {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Qualifier,
+                                            System.Management.Automation.ParameterMetadata], [NoQualifier,
+                                            System.Management.Automation.ParameterMetadata]…}
+Split-WindowsImage                          
+Start-BitsTransfer                          
+Start-DscConfiguration                      
+Start-DtcDiagnosticResourceManager          
+Start-Job                                   {[DefinitionName, System.Management.Automation.ParameterMetadata], [DefinitionPath,
+                                            System.Management.Automation.ParameterMetadata], [Type,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata]…}
+Start-OSUninstall                           
+Start-Process                               {[FilePath, System.Management.Automation.ParameterMetadata], [ArgumentList,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata], [WorkingDirectory,
+                                            System.Management.Automation.ParameterMetadata]…}
+Start-Service                               {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Start-Sleep                                 {[Seconds, System.Management.Automation.ParameterMetadata], [Milliseconds,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Start-ThreadJob                             
+Start-Transcript                            
+Stop-Computer                               {[WsmanAuthentication, System.Management.Automation.ParameterMetadata], [ComputerName,
+                                            System.Management.Automation.ParameterMetadata], [Credential,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Stop-DtcDiagnosticResourceManager           
+Stop-Job                                    {[Job, System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [InstanceId,
+                                            System.Management.Automation.ParameterMetadata]…}
+Stop-Process                                {[Name, System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata]…}
+Stop-Service                                {[Force, System.Management.Automation.ParameterMetadata], [NoWait,
+                                            System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Stop-Transcript                             
+Suspend-BitsTransfer                        
+Suspend-Service                             {[Name, System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata], [PassThru,
+                                            System.Management.Automation.ParameterMetadata], [DisplayName,
+                                            System.Management.Automation.ParameterMetadata]…}
+Switch-Certificate                          
+Tee-Object                                  {[InputObject, System.Management.Automation.ParameterMetadata], [FilePath,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Append,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-Certificate                            
+Test-Connection                             {[Ping, System.Management.Automation.ParameterMetadata], [IPv4,
+                                            System.Management.Automation.ParameterMetadata], [IPv6,
+                                            System.Management.Automation.ParameterMetadata], [ResolveDestination,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-DscConfiguration                       
+Test-FileCatalog                            
+Test-Json                                   {[Json, System.Management.Automation.ParameterMetadata], [Schema,
+                                            System.Management.Automation.ParameterMetadata], [SchemaFile,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-KdsRootKey                             
+Test-ModuleManifest                         {[Path, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-Path                                   {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Filter,
+                                            System.Management.Automation.ParameterMetadata], [Include,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-PSSessionConfigurationFile             {[Path, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Test-WSMan                                  
+Trace-Command                               {[InputObject, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Option,
+                                            System.Management.Automation.ParameterMetadata], [Expression,
+                                            System.Management.Automation.ParameterMetadata]…}
+Unblock-File                                {[Path, System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Unblock-Tpm                                 
+Undo-DtcDiagnosticTransaction               
+Uninstall-Package                           
+Uninstall-ProvisioningPackage               
+Uninstall-TrustedProvisioningCertificate    
+Unprotect-CmsMessage                        
+Unregister-Event                            {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [SubscriptionId,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Unregister-PackageSource                    
+Unregister-PSSessionConfiguration           {[Name, System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata], [NoServiceRestart,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata]…}
+Unregister-ScheduledJob                     
+Unregister-WindowsDeveloperLicense          
+Update-FormatData                           {[AppendPath, System.Management.Automation.ParameterMetadata], [PrependPath,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Update-Help                                 {[Module, System.Management.Automation.ParameterMetadata], [FullyQualifiedModule,
+                                            System.Management.Automation.ParameterMetadata], [SourcePath,
+                                            System.Management.Automation.ParameterMetadata], [LiteralPath,
+                                            System.Management.Automation.ParameterMetadata]…}
+Update-List                                 {[Add, System.Management.Automation.ParameterMetadata], [Remove,
+                                            System.Management.Automation.ParameterMetadata], [Replace,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Update-TypeData                             {[MemberType, System.Management.Automation.ParameterMetadata], [MemberName,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata], [SecondValue,
+                                            System.Management.Automation.ParameterMetadata]…}
+Update-WIMBootEntry                         
+Use-WindowsUnattend                         
+Wait-Debugger                               {[Verbose, System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata], [WarningAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Wait-Event                                  {[SourceIdentifier, System.Management.Automation.ParameterMetadata], [Timeout,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Wait-Job                                    {[Job, System.Management.Automation.ParameterMetadata], [Any,
+                                            System.Management.Automation.ParameterMetadata], [Timeout,
+                                            System.Management.Automation.ParameterMetadata], [Force,
+                                            System.Management.Automation.ParameterMetadata]…}
+Wait-Process                                {[Id, System.Management.Automation.ParameterMetadata], [Name,
+                                            System.Management.Automation.ParameterMetadata], [Timeout,
+                                            System.Management.Automation.ParameterMetadata], [InputObject,
+                                            System.Management.Automation.ParameterMetadata]…}
+Where-Object                                {[InputObject, System.Management.Automation.ParameterMetadata], [FilterScript,
+                                            System.Management.Automation.ParameterMetadata], [Property,
+                                            System.Management.Automation.ParameterMetadata], [Value,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Debug                                 {[Message, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Error                                 {[Exception, System.Management.Automation.ParameterMetadata], [Message,
+                                            System.Management.Automation.ParameterMetadata], [ErrorRecord,
+                                            System.Management.Automation.ParameterMetadata], [Category,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Host                                  {[Object, System.Management.Automation.ParameterMetadata], [NoNewline,
+                                            System.Management.Automation.ParameterMetadata], [Separator,
+                                            System.Management.Automation.ParameterMetadata], [ForegroundColor,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Information                           {[MessageData, System.Management.Automation.ParameterMetadata], [Tags,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Output                                {[InputObject, System.Management.Automation.ParameterMetadata], [NoEnumerate,
+                                            System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Progress                              {[Activity, System.Management.Automation.ParameterMetadata], [Status,
+                                            System.Management.Automation.ParameterMetadata], [Id,
+                                            System.Management.Automation.ParameterMetadata], [PercentComplete,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Verbose                               {[Message, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+Write-Warning                               {[Message, System.Management.Automation.ParameterMetadata], [Verbose,
+                                            System.Management.Automation.ParameterMetadata], [Debug,
+                                            System.Management.Automation.ParameterMetadata], [ErrorAction,
+                                            System.Management.Automation.ParameterMetadata]…}
+
