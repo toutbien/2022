@@ -1,0 +1,36 @@
+#ways to output data and then an example
+
+#The Out-File cmdlet is most useful when you want to save output 
+#as it would have displayed on the console
+Get-Process | Out-Host -Paging | Format-List
+
+#output OptionA to local text file
+Get-Process | Out-File -FilePath C:\Users\toutb\mylist.txt
+
+#output OptionB if you need ASCII encoding
+Get-Process | Out-File -FilePath C:\Users\toutb\mylist.txt -Encoding ASCII
+
+#if you want to output to your printer (it will use default unless named)
+Get-Command Get-Command | Out-Printer -Name 'PrintToPDF'
+
+#if you want to throw away any input received (for discarding unnecessary data)
+#but it does not discard error output
+Get-Command | Out-Null
+
+
+#The working example
+#pick a thing choosing from all in class Alias, Function & cmdlet 
+Get-Command 
+
+#I picked cmdlet, so the below returns all cmdlet in pwsh
+Get-Command -Type cmdlet 
+
+#What I then wanted was more details than just the clean headers, so running FormatList (alias: fl) gives
+# me the Name, CommandType (already known), Definition, DLL, Path, the HelpFile (xml), the Parameters, ImplementatingType, Verb, and Noun
+# I don't need all of that. Let's just select for Name, Parameters, Definition:
+Get-Command -Type cmdlet | fl -Property Name,Parameters,Definition
+
+#now let's put that in a file 
+Get-Command -Type cmdlet | fl -Property Name,Parameters,Definition | Out-File somethingcool.txt
+
+#see the file "cool.text" for the output
