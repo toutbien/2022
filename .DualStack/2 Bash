@@ -1,7 +1,7 @@
 #Create your resource group
 az group create \
-    --name myResourceGroup \
-    --location eastus2
+    --name yourResourceGroup \
+    --location yourregionofchoice
 
 #Create your vnet    
 az network vnet create \
@@ -60,7 +60,7 @@ az network public-ip show \
 
 #Display your public IPv6
 az network public-ip show \
-    --resource-group DeleteMe-ResourceGroup \
+    --resource-group yourResourceGroup \
     --name myPublicIP-IPv6 \
     --query ipAddress \
     --output tsv
@@ -71,4 +71,4 @@ az network public-ip show \
 ssh azureuser1@11.11.111.111
 
 #if you need to reset SSH
-az vm user reset-ssh --resource-group yourResourceGroup --name DeleteMeVM
+az vm user reset-ssh --resource-group yourResourceGroup --name yourVM
