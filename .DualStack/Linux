@@ -1,0 +1,20 @@
+#Now youre remoted into your machine and can install your goodies if you want to
+So let's take it one step further, installing xfce for SSH to give us a Desktop environment:
+sudo apt-get update
+
+sudo apt-get -y install xfce4
+
+sudo apt install xfce4-session
+
+#THen we install a remote desktop server to use with RDP on Linux (xdrp)
+sudo apt-get -y install xrdp
+sudo systemctl enable xrdp
+
+#configure the environment
+echo xfce4-session >~/.xsession
+
+#Then restart for the magic
+sudo service xrdp restart
+
+#Local account password set up:
+sudo passwd azureuser
