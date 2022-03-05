@@ -1,0 +1,24 @@
+
+#find your docker container name
+docker container ls -a
+
+#stop your container
+docker stop container_name
+#or stop all running containers
+docker stop $(docker ps -a -q)
+
+#find your docker image
+docker image ls -a
+
+#remove the image
+docker rmi mcr.microsoft.com/azure-cli
+
+#remove your containers
+docker rm container_name
+#or remove all containers
+docker rm $(docker ps -a -q)
+
+#run both of these to ensure your containers and images are removed
+docker container ls -a
+docker image ls -a
+
