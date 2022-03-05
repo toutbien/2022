@@ -1,0 +1,3 @@
+  #from Azure CLI, delete your resource
+  az group delete \
+    --name yourResourceGroup
