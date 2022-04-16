@@ -1,0 +1,2 @@
+#Install your Azure CLI through docker
+docker run -it mcr.microsoft.com/azure-cli

@@ -1,0 +1,74 @@
+#Create your resource group
+az group create \
+    --name yourResourceGroup \
+    --location yourregionofchoice
+
+#Create your vnet    
+az network vnet create \
+    --resource-group yourResourceGroup \
+    --location eastus2 \
+    --name myVNet \
+    --address-prefixes 10.0.0.0/16 2404:f800:8000:122::/63 \
+    --subnet-name myBackendSubnet \
+    --subnet-prefixes 10.0.0.0/24 2404:f800:8000:122::/64
+
+#Create your IPv4 and IPv6
+az network public-ip create \
+    --resource-group yourResourceGroup \
+    --name myPublicIP-Ipv4 \
+    --sku Standard \
+    --version IPv4
+
+az network public-ip create \
+    --resource-group yourResourceGroup \
+    --name myPublicIP-Ipv6 \
+    --sku Standard \
+    --version IPv6
+    
+#Create a security group for your network
+az network nsg create \
+    --resource-group yourResourceGroup \
+    --name yourNSG   
+
+#Create your NIC
+az network nic create \
+    --resource-group yourResourceGroup \
+    --name myNIC1 \
+    --vnet-name myVNet \
+    --subnet myBackEndSubnet \
+    --network-security-group yourNSG \
+    --public-ip-address myPublicIP-IPv4
+
+#Now we create a virtual machine, take note of the options
+az vm create \
+    --resource-group yourResourceGroup \
+    --name yourVM \
+    --nics myNIC1 \
+    --image UbuntuLTS \
+    --admin-username azureuser \
+    --authentication-type ssh \
+    --generate-ssh-keys
+
+#Display your public IPv4
+az network public-ip show \
+    --resource-group yourResourceGroup \
+    --name myPublicIP-IPv4 \
+    --query ipAddress \
+    --output tsv
+
+#output will be an ipv4 address (i.e. 11.11.111.111)
+
+#Display your public IPv6
+az network public-ip show \
+    --resource-group yourResourceGroup \
+    --name myPublicIP-IPv6 \
+    --query ipAddress \
+    --output tsv
+    
+#Output will be your ipv6 address
+
+#Then open your SSH with the IP address you retrieved. IPv4 example below:
+ssh azureuser1@11.11.111.111
+
+#if you need to reset SSH
+az vm user reset-ssh --resource-group yourResourceGroup --name yourVM
